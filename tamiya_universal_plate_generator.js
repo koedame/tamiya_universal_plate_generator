@@ -7,7 +7,7 @@ const { translate } = require('@jscad/modeling').transforms;
 // Parameter definitions
 const getParameterDefinitions = () => [
   { name: 'length', type: 'number', initial: 160, caption: 'Plate length (mm)' },
-  { name: 'width', type: 'number', initial: 60, caption: 'Plate width (mm) / Basic=60mm, L=210' },
+  { name: 'width', type: 'number', initial: 60, caption: 'Plate width (mm) / Basic=60mm, L=210mm' },
   { name: 'thickness', type: 'number', initial: 3, caption: 'Plate thickness (mm)' },
   { name: 'cornerRadius', type: 'number', initial: 3, caption: 'Corner radius (mm)' },
   { name: 'margin', type: 'number', initial: 5, caption: 'Distance from plate edge (mm)' },
